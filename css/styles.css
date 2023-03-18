@@ -239,6 +239,7 @@ address{
     background-color: #2e2f42;
     padding-top: 100px;
     padding-bottom: 100px;
+    
    
 }
 .footer-studio {
@@ -258,11 +259,17 @@ address{
     margin-bottom: 16px;
 }
 .tst{
-  
-    max-width: 264px;
+   
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    align-items: flex-start;
     
-    margin-left: 185px;
 }
+div > a + p {
+padding:;
+max-width:264px;}
+
 /*--------------------------Portfolio.html--------------------------------*/
 /*--------------------------HEADER----------------------------------------*/
 /*--------------------------MAIN---------------------------------------*/
