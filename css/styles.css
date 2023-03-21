@@ -1,4 +1,4 @@
-/*--------------------------index.html------------------------------------*/
+/*----------index.html-----------*/
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -29,16 +29,14 @@ address{
      padding-left: 15px;
      padding-right: 15px;
      margin: 0 auto;
-     /* background-color: #24b8ab; */
     }
 img {
         max-width: 100%;
         height: auto;
         display: block;
     }
-/*--------------------------header----------------------------------------*/
 
-/*--------------------------header----------------------------------------*/
+/*-------------header-------------------*/
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -89,7 +87,7 @@ img {
 .menu-link:hover,.menu-link:focus {
     color: #404bbf;
 }
-/*--------------------------address---------------------------------------*/
+/*-------------------address---------------*/
 .socials {
     font-style: normal;
 }
@@ -117,7 +115,7 @@ img {
     color:#404bbf;
 }
   
-/*--------------------------siction1--------------------------------------*/
+/*--------------siction1-------------*/
 .title {
     background-color: #2e2f42;
     padding-top: 188px;
@@ -157,7 +155,7 @@ img {
 .title-btn:hover {
     background-color: #404BBF;
 }
-/*--------------------------siction2--------------------------------------*/
+/*--------------siction2--------------*/
 
 .aside {
     margin-top: 120px;
@@ -165,16 +163,18 @@ img {
 }
 .aside-list{
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     gap: 24px;
+    padding: 0;
+    list-style: none;
     
 }
  .container-section {
     
-  flex-basis: calc((100% - 3 * 240px) / 4);
-  
+     flex-basis: calc((100% - 3* 24px) / 4);
 } 
 
 .aside-content {
@@ -196,7 +196,7 @@ img {
     line-height: 1.5; 
     letter-spacing: 0.02em;
 }
-/*--------------------------siction3--------------------------------------*/
+/*--------------siction3------------*/
 .img-text {
     font-size: 36px;
     line-height: 1.11;
@@ -212,7 +212,7 @@ img {
     gap: 24px;
     padding-bottom: 120px;
 }
-/*--------------------------siction4--------------------------------------*/
+/*------------------siction4---------------*/
 .team{
     background-color: #f4f4fd;
 }
@@ -259,7 +259,7 @@ img {
     flex-direction: column;
     align-items: center
 }
-/*--------------------------FOOTHER---------------------------------------*/
+/*-----------FOOTHER----------------*/
 .footer {
     background-color: #2e2f42;
     padding-top: 100px;
@@ -295,9 +295,8 @@ div > a + p {
 max-width:264px;
 }
 
-/*--------------------------Portfolio.html--------------------------------*/
-/*--------------------------HEADER----------------------------------------*/
-/*--------------------------MAIN---------------------------------------*/
+/*----------------Portfolio.html-----------------*/
+/*-----------------MAIN----------------------*/
 .button{
     display: flex;
     flex-direction: row;
@@ -330,7 +329,7 @@ max-width:264px;
     border-radius: 4px;
     
 }
-/*--------------------------MAIN---------------------------------------*/
+/*-----------------MAIN--------------*/
 .portfolio-content-text {
     font-weight: 500;
     font-size: 20px;
@@ -345,7 +344,7 @@ max-width:264px;
     letter-spacing: 0.02em;
     color:#434455 ;
 }
-/* ------------------IMG---------------------------------- */
+/* ------------------IMG---------------- */
 .img-potfolio {
     display: flex;
     justify-content: space-around;
@@ -370,4 +369,4 @@ max-width:264px;
     margin-bottom: 48px;
 }
 
-/* -------------------------IMG2-------------------------- */
+/* ------------------IMG2----------------- */
